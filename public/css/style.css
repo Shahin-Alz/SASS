@@ -1,6 +1,69 @@
+.hautdelanav {
+  display: flex;
+  background-color: purple;
+  justify-content: center;
+}
+.hautdelanav .img1 {
+  position: absolute;
+  left: 15px;
+  margin-top: 10px;
+}
+.hautdelanav p {
+  color: white;
+}
+.hautdelanav button {
+  background-color: green;
+  margin: 3px;
+  border-radius: 60px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav .basdelanav {
+  margin: 10px;
+}
+.nav .img {
+  position: absolute;
+  left: 10px;
+}
+.nav .btndroite {
+  position: absolute;
+  right: 5px;
+  margin: 10px;
+  background-color: red;
+}
+
 h1 {
-  color: blue;
-  background: red;
+  text-align: center;
+}
+
+.partie1 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+li {
+  padding: 15px;
+}
+
+.section {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  height: 300px;
+}
+footer .reseaux {
+  padding: 10px;
+}
+footer .img3 {
+  margin: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
